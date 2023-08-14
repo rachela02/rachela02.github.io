@@ -1,0 +1,43 @@
+h2, h3, h4 {
+    text-align:center;
+}
+div{
+    padding:24px;
+}
+
+#p1-d1 {
+    background-color: #00fdff;
+}
+#p1-d2 {
+    background-color: #e397ff;
+}
+#p1-d3 {
+    background-color:#e8a62d;
+}
+#p1-d1, #p1-d2, #p1-d3, #p1-heading {
+    font-family:Courier New, Courier, monospace
+}
+#p2-d1 {
+    background-color: #00FDFF;
+}
+#p2-d2 {
+    background-color: #4F9D9D;
+}
+#p2-d3 {
+    background-color:#E9FDFD;
+}
+#p2-d1, #p2-d2, #p2-d3, #p2-heading {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande'
+}
+#p3-d1 {
+    background-color: #EEE6ED;
+}
+#p3-d2 {
+    background-color: #977092;
+}
+#p3-d3 {
+    background-color:#643B47;
+}
+#p3-d1, #p3-d2, #p3-d3, #p3-heading {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial
+}
