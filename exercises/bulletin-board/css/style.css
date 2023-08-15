@@ -1,0 +1,53 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+.post-it {
+    margin: 24px;
+    padding: 24px;
+    background-color: olive;
+    display: inline-block;
+    width: 200px;
+}
+img {
+    width: 100%;
+}
+ #p2 {
+    margin: 24px;
+    padding: 24px;
+    background-color:palegoldenrod;
+    display: inline-block;
+    width: 200px;
+}
+#p3 {
+    margin: 24px;
+    padding: 24px;
+    background-color:palevioletred;
+    display: inline-block;
+    width: 200px;
+}
+#p4 {
+    margin: 24px;
+    padding: 24px;
+    background-color:plum;
+    display: inline-block;
+    width: 200px;
+}
+#p5 {
+    margin: 24px;
+    padding: 24px;
+    background-color:peru;
+    display: inline-block;
+    width: 200px;
+}
+#p6 {
+    margin: 24px;
+    padding: 24px;
+    background-color:pink;
+    display: inline-block;
+    width: 200px;
+}
