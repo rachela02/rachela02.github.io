@@ -1,0 +1,13 @@
+div {
+    border: 10px dashed orange;
+    margin: 24px 0px;
+    padding: 25px 36px; 
+    background-color: lavender;
+}
+p {
+    background-color: coral;
+    margin: 60px;
+    padding: 100px 25px;
+    border: 20px solid cornflowerblue;
+    border-radius: 40px;
+}
