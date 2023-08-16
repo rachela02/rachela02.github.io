@@ -7,12 +7,31 @@
 #navbar a {
     color: white;
 }
+
 p a {
     color: orange;
 }
+
 p.warning {
     color:crimson;
 }
+
 p.warning a {
     color:greenyellow;
+}
+
+ul {
+    color: green;
+}
+
+ul a {
+    color: lime;
+}
+
+ul p a {
+    color:pink;
+}
+
+ul div a {
+    color:deepskyblue;
 }
