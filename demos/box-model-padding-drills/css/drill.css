@@ -11,9 +11,17 @@
 /* Drill 3 - Write your code solution below */
 #d3-div-2 {
     padding: 30px 48px;
-
+}
 /* Drill 4 - Write your code solution below */
-
+.d4-div {
+    margin: 24px 24px 24px 24px;
+}
 
 /* Drill 5 - Write your code solution below */
-
+#d5-container-1 {
+    text-align: center;
+}
+.d5-s {
+    display:inline-block;
+    padding: 24px;
+}
