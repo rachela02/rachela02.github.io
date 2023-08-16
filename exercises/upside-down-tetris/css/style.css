@@ -1,0 +1,84 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Upside-down Tetris assignment.
+
+    Good luck, and have fun!
+*/
+.tetris-block {
+    padding: 20px;
+    border-width: 12px;
+    border-style: outset;
+    display: inline-block;
+}
+.lake {
+    background-color: #20a393;
+    border-color: #20a393;
+}
+.teal {
+    background-color: teal;
+    border-color: teal;
+}
+.lavender {
+    background-color: lavender;
+    border-color: lavender;
+}
+.beach {
+    background-color: #FFE299;
+    border-color: #ffe299;
+}
+.pink {
+    background-color: hotpink;
+    border-color: hotpink;
+}
+.hidden {
+    background-color: transparent;
+    border-color: transparent;
+}
+.long {
+    padding: 20px 52px;
+}
+.flower {
+    background-color: palegreen;
+    border-color: palegreen;
+}
+.sky {
+    background-color: powderblue;
+    border-color: powderblue;
+}
+.mint {
+    background-color: #d3ffe9;
+    border-color: #d3ffe9;
+}
+.autum {
+    background-color: #c19875;
+    border-color: #c19875;
+}
+.ruby {
+    background-color: #8c271e;
+    border-color: #8c271e;
+}
+.midnight {
+    background-color: #381d2a;
+    border-color: #381d2a;
+}
+.glossy {
+    background-color: #cf4d6f;
+    border-color: #cf4d6f;
+}
+.grass {
+    background-color: #307351;
+    border-color: #307351;
+}
+.sunshine {
+    background-color: #ffba49;
+    border-color: #ffba49;
+}
+.spring {
+    background-color: #ef5b5b;
+    border-color: #ef5b5b;
+}
+.wide {
+    padding: 52px 20px;
+}
