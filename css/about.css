@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.aura {
+    margin: 25px auto;
+    max-width: 800px;
+}
+
+.aura img  {
+    display: inline-block;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+    vertical-align: middle;
+}
+
+h3 {
+    font-family: 'Lobster', cursive;
+}
