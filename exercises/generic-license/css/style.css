@@ -1,0 +1,64 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Generic License assignment.
+
+    Good luck, and have fun!
+*/
+#license {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 40px;
+    background-color: orange;
+}
+
+h1 {
+    color: blue;
+}
+
+ h4 {
+    background-color: blue;
+    border: 10px solid blue;
+    color: white;
+    text-align: center;
+}
+
+#id-and-expiration div {
+    display: inline-block;
+    padding: 10px;
+    color: blue;
+}
+
+span { 
+    color: red;
+}
+
+#id-and-expiration {
+    color: blue;
+}
+
+#address {
+    font-weight: bold;
+}
+
+#right-side {
+    display: inline-block;
+}
+
+#data-fields {
+    display: inline-block;
+}
+
+#small-pic {
+    text-align: right;
+    padding: 10px 0px 0px 0px
+}
+
+#donor {
+    color: red;
+}
+
+.fa-star {
+    color: yellow;
+}
