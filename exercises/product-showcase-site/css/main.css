@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=Lobster&display=swap');
+{
+    box-sizing: border-box;
+    margin: opx;
+    padding: 0px;
+}
+
+#section1 { 
+    background-color: #d3c1c3;
+}
+.contain {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}
+
+.contain img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 50%
+}
+
+h2 {
+    text-align: center;
+}
+
+p2 {
+    background-color: white;
+}
+
+#section2 {
+    background-color: #575366;
+}
+
+.contain2 {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}
+.contain2 img {
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 50%
+}
+
+#section3 {
+    background-color: #e2d0be;
+}
+#section-2 {
+    background-color: lightcoral;
+}
+
+.contain3 {
+    width: 75%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 25px 0;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+}
+
+.contain3 img {
+    width: 70%;
+    margin: 0px 20px;
+    transform: rotate(90deg);
+    border-radius: 80px
+}
