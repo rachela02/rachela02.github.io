@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#two-column {
+    display: flex;
+    gap: 24px;
+    padding: 25px;
+}
+
+.sidebar {
+    border: 8px ridge purple;
+    padding: 20px;
+    height: 267px;
+    position: sticky;
+    top: 25px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4px;
+}
+
+.sidebar ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    color: lavender;
+}
+
+.sidebar h2 {
+    margin-bottom: 12px;
+}
+
+.wiki-content {
+    padding-right: 20px;
+}
+
+.wiki-content p.wiki {
+    margin: 12px 0;
+    border-bottom: 3px ridge purple;
+}
