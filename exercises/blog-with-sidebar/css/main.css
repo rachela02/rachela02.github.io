@@ -1,0 +1,40 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    text-align: center;
+    margin: 50px auto;
+}
+
+img {
+    width: 96%;
+}
+
+#two-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "main sidebar";
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: 9px ridge #AF6F6E;
+    background-color: #AF6F6E;
+    color: white;
+    height: 350px;
+    position: sticky;
+    top: 25px;
+}
+
+#main {
+    grid-area: main;
+}
+
+.image2 {
+    width: 50%;
+}
+
+
