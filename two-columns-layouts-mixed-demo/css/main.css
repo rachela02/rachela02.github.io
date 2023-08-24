@@ -74,8 +74,29 @@ body {
 
 .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 / 9;
-    background: radial-gradient(at top left, pink, cyan);
+    background-image: url(../images/plater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 8px;
+}
+
+.metube-item:nth-of-type(2) .thumbnail-placeholder {
+    background-image: url(../images/design.jpg);
+}
+
+.metube-item:nth-of-type(3) .thumbnail-placeholder {
+    background-image: url(../images/nature.jpg);
+}
+
+.metube-item:nth-of-type(4) .thumbnail-placeholder {
+    background-image: url(../images/frog.jpg);
+}
+
+.metube-item:nth-of-type(5) .thumbnail-placeholder {
+    background-image: url(../images/couch.jpg);
+}
+.metube-item:nth-of-type(6) .thumbnail-placeholder {
+    background-image: url(../images/paint.jpg);
 }
 
 .metube-item h4 {
