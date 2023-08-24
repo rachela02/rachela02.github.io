@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500&family=EB+Garamond:wght@500&family=Lobster&family=Poppins:wght@300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Bodoni Moda', serif;
+}
+
+
+
+#grid-layout {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+     "header header"
+     "sidebar main"
+    ;
+}
+
+#header {
+    grid-area: header;
+    padding: 0px 36px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: #DDA15E;
+}
+
+#header #tube {
+    color: white;
+    background-color: #283618;
+    padding: 4px;
+    border-radius: 12px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    padding: 0px 24px;
+}
+
+#sidebar ul {
+    padding: 12px 0;
+    margin: 0px;
+    list-style-type: none;
+    border-bottom: 2px solid #DDA15E;
+}
+
+#sidebar ul a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    padding: 12px;
+}
+
+#sidebar ul a:hover {
+    background-color: #283618;
+    border-radius: 12px;
+    color: white;
+}
+
+#main {
+    grid-area: main;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.metube-item {
+    flex: 250px;
+    margin-right: 12px;
+    margin-bottom: 24px;
+}
+
+.metube-item .thumbnail-placeholder {
+    aspect-ratio: 16 / 9;
+    background-image: url(../images/plater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+}
+
+.metube-item:nth-of-type(2) .thumbnail-placeholder {
+    background-image: url(../images/design.jpg);
+}
+
+.metube-item:nth-of-type(3) .thumbnail-placeholder {
+    background-image: url(../images/nature.jpg);
+}
+
+.metube-item:nth-of-type(4) .thumbnail-placeholder {
+    background-image: url(../images/packwithme.jpg);
+}
+
+.metube-item:nth-of-type(5) .thumbnail-placeholder {
+    background-image: url(../images/meditation.jpg);
+}
+.metube-item:nth-of-type(6) .thumbnail-placeholder {
+    background-image: url(../images/hometour.jpg);
+}
+.metube-item:nth-of-type(7) .thumbnail-placeholder {
+    background-image: url(../images/naturetrip.jpg);
+}
+.metube-item:nth-of-type(8) .thumbnail-placeholder {
+    background-image: url(../images/weddingvlog.jpg);
+}
+.metube-item:nth-of-type(9) .thumbnail-placeholder {
+    background-image: url(../images/welcomingbaby.jpg);
+}
+.metube-item:nth-of-type(10) .thumbnail-placeholder {
+    background-image: url(../images/triptochi.jpg);
+}
+.metube-item:nth-of-type(11) .thumbnail-placeholder {
+    background-image: url(../images/applepie.jpg);
+}
+.metube-item:nth-of-type(12) .thumbnail-placeholder {
+    background-image: url(../images/coffedate.jpg);
+}
+
+.metube-item h4 {
+    margin: 8px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.metube-item h4 a {
+    text-decoration: none;
+    color: #111;
+    display: block;
+    font-weight: bolder;
+}
+
+.metube-item h4 a:hover {
+    text-decoration: underline;
+}
+
+.metube-item .video-channel {
+    margin-bottom: 4px;
+    font-style: italic;
+}
