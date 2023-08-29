@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/plants.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-1 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: #be4d25;
+}
+
+#hero-1 h4 {
+    font-size: 3.5vw;
+    margin: 0px 5vw 0px 0px;
+    color: #ab2569;
+    background-color: #EDE7D9;
+}
+
+#hero-1 a {
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color: #D5A021;
+    border-radius: 50%;
+    color: #EDE7D9;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-2 {
+    background-image: url(../images/cartire.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center left;
+}
+
+#hero-2 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-2 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: 	#e5f2c4;
+}
+
+#hero-2 h4 {
+    font-size: 4vw;
+    margin:  0px 5vw 0px 0px;
+    color: 	#a00000;
+}
+
+#hero-2 a {
+    font-size: 3.5vw;
+    display: inline-block;
+    background-color: #e5f2c4;
+    border-radius: 40%;
+    color: #a00000;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url(../images/vacation.jpg);
+    height: 100vh;
+    background-size: hover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-3 .hero-content {
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+#hero-3 h2 {
+    font-size: 10vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: 	#495579;
+}
+
+#hero-3 h4 {
+    font-size: 4vw;
+    margin: 0px 5vw 0px 0px;
+    color: 	#263159;
+    background-color: #EDE7D9;
+}
+
+#hero-3 a {
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color: #495579;
+    border-radius: 40%;
+    color: 	#EDE7D9;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
