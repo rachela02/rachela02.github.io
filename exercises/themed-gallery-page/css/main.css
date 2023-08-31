@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.hero {
+    background-image: url(../images/bandwforest.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.hero h1 {
+    text-align: center;
+    color: beige;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.vertical-masonry-gallery {
+    columns: 3 auto;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+    border: 3px solid beige;
+}
