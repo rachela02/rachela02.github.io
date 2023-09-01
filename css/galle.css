@@ -1,0 +1,8 @@
+.vertical-masonry-gallery {
+    columns: 3 auto;
+}
+
+.vertical-masonry-gallery img {
+    width: 100%;
+    margin-bottom: 1rem;
+}

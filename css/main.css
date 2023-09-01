@@ -41,10 +41,10 @@ body {
     width: 90vw;
     max-width: 1000px;
     margin: 3rem auto;
+    color: slategrey;
 }
-
-#main h2 {
-    color: #c9a88d;
+#main h2  {
+    color: slategrey;
 }
 
 .gallery {
@@ -55,8 +55,9 @@ body {
 }
 .gallery .card {
     height: 450px;
+    width: 85%;
     padding: 1.25rem;
-    border-radius: 30px;
+    border: 2px solid #656d4f;
     position: relative;
 }
 .gallery .card img {
@@ -76,11 +77,9 @@ body {
 }
 
 .title {
-    color: #c9a88d;
+    color: slategrey;
     text-decoration: none;
-    padding: .10rem 1.2rem;
     text-align: center;
     display: inline-block;
-    margin-top: 15px;
     font-size: .90rem;
 }
