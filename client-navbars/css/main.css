@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:opsz,wght@6..96,500&family=EB+Garamond:ital,wght@0,500;0,700;1,400&family=Lobster&family=Poppins:wght@300&family=Righteous&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+}
+
+#navbar {
+    background: linear-gradient(to bottom,#D9CEAD, #8C774F);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: 	whitesmoke;
+    padding: 24px;
+}
+
+#navbar #logo2 {
+    margin-right: auto;
+}
+
+body {
+    margin: 0px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#navbar2 {
+    background: linear-gradient(to left,#F7DC7A,PINK, #FF9E7F);
+    display: flex;
+    align-items: center;
+}
+
+#navbar2 a {
+    text-decoration: none;
+    color: 	whitesmoke;
+    padding: 24px;
+}
+#navbar2 #logo2 {
+    font-size: 30px;
+    font-family: 'Yeseva One', cursive;
+}
+
+#navbar2 .cta-button {
+    background-color: #FF9E7F;
+    font-family: 'Yeseva One', cursive;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+body {
+    margin: 0px;
+    font-family: font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+#headernav {
+    background: linear-gradient(to left,#D91414,#F21616);
+}
+#promonav #logo4 {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+#navbar3 {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navbar3 a {
+    text-decoration: none;
+    color: 	#F21616;
+    padding: 24px;
+}
+#navbar3 #logo5 {
+    font-size: 30px;
+    font-family: 'Cabin Sketch';
+    color: whitesmoke;
+}
+
+#navbar3 .cta-button {
+    background: linear-gradient(to left,#590209,#F21616,#590209);
+    font-family: 'Cabin Sketch';
+    color: white;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#navbar-bottom {
+    background: linear-gradient(to bottom,#0D0D0D, #590209, #D91414);
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+    
+}
