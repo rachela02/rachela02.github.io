@@ -302,13 +302,22 @@ body {
 
 #card9 {
     position: relative;
+    background-color: #E66C93;
+    border: 4px solid bisque;
+}
+#card9 a {
+    color: black;
+    border: 3px solid #E66C93;
+}
+#card9 a:hover {
+    color: #E66C93;
 }
 #card9 .card-content {
     position: absolute;
-    background-color: white;
-    border: 3px solid black;
+    background-color: bisque;
+    border: 2px solid #E66C93;
     box-shadow: 4px 4px 4px #00000033;
-    border-radius: 12px;
+    border-radius: 40px;
     left: 0px;
     margin: 0px 24px;
     padding: 24px;
@@ -328,13 +337,22 @@ body {
 
 #card10 {
     position: relative;
+    background-color: #F25C05;
+    border: 4px solid bisque;
+}
+#card10 a {
+    color: black;
+    border: 3px solid #F25C05;
+}
+#card10 a:hover {
+    color: #F25C05;
 }
 #card10 .card-content {
     position: absolute;
-    background-color: white;
-    border: 3px solid black;
+    background-color: bisque;
+    border: 2px solid #F25C05;
     box-shadow: 4px 4px 4px #00000033;
-    border-radius: 12px;
+    border-radius: 40px;
     left: 0px;
     margin: 0px 24px;
     padding: 24px;
@@ -354,13 +372,22 @@ body {
 
 #card11 {
     position: relative;
+    background-color: #BF308d;
+    border: 4px solid bisque;
+}
+#card11 a {
+    color: black;
+    border: 3px solid #BF308D;
+}
+#card11 a:hover {
+    color: #BF308D;
 }
 #card11 .card-content {
     position: absolute;
-    background-color: white;
-    border: 3px solid black;
+    background-color: bisque;
+    border: 2px solid #BF308D;
     box-shadow: 4px 4px 4px #00000033;
-    border-radius: 12px;
+    border-radius: 40px;
     left: 0px;
     margin: 0px 24px;
     padding: 24px;
@@ -380,13 +407,22 @@ body {
 
 #card12 {
     position: relative;
+    background-color: #D92B04;
+    border: 4px solid bisque;
+}
+#card12 a {
+    color: black;
+    border: 3px solid #D92B04;
+}
+#card12 a:hover {
+    color: #D92B04;
 }
 #card12 .card-content {
     position: absolute;
-    background-color: white;
-    border: 3px solid black;
+    background-color: bisque;
+    border: 2px solid #D92B04;
     box-shadow: 4px 4px 4px #00000033;
-    border-radius: 12px;
+    border-radius: 40px;
     left: 0px;
     margin: 0px 24px;
     padding: 24px;
