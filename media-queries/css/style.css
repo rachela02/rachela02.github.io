@@ -225,6 +225,13 @@ a {
     #nav h2 {
         flex-direction: row;
     }
+   .two-cards a {
+    display: block;
+   }
+   .two-cards  {
+    display: block;
+    align-items: center;
+   }
 }
 
 @media screen and (max-width: 480px) {
