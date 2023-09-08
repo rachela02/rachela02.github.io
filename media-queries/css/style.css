@@ -222,9 +222,8 @@ a {
         flex-direction: column;
         height: 100vh;
     }
-    #nav #nav-links {
-        flex-direction: column;
-        align-items: center;
+    #nav h2 {
+        flex-direction: row;
     }
 }
 
@@ -243,16 +242,16 @@ a {
         flex-direction: column;
         height: auto;
     }
-    .two-cards .card {
-        height: 200px;
-        width: 100%;
-        flex: auto;
-    }
+
     .two-cards .content {
         flex: auto;
     }
     #footer .social-media {
         flex-direction: row;
+        align-items: center;
+    }
+    .two-cards .card a {
+        flex-direction: column;
         align-items: center;
     }
 }
