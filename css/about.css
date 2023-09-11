@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: 'Lobster', cursive;
+}
+#navbar {
+    background: linear-gradient(to left,#D9A3B6, #A6779E);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color: #091140;
+    padding: 24px;
+    font-size: 20px;
+}
+#navbar #logo {
+    margin-right: auto;
+}
 .aura {
     margin: 25px auto;
     max-width: 800px;

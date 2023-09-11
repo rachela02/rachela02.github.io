@@ -8,14 +8,6 @@ body {
     margin: 0px;
     font-family: 'Lobster', cursive;
 }
-.vertical-masonry-gallery {
-    columns: 3 auto;
-}
-
-.vertical-masonry-gallery img {
-    width: 100%;
-    margin-bottom: 1rem;
-}
 #navbar {
     background: linear-gradient(to left,#D9A3B6, #A6779E);
     display: flex;
