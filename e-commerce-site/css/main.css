@@ -120,17 +120,22 @@ body {
     width: 50%;
     min-width: 500px;
     max-width: 1200px;
-    /* Make the left column become a right column! */
     margin: auto;
 }
+.single-column h3 {
+    text-decoration: none;
+    color: #F27244;
+    background-color: #592B1B;
+    border-radius: 6px;
+    padding: 12px 36px;
+    display: inline-block;
 
+}
 .light-container {
-    background-color: lavender;
     padding: 48px 0px;
 }
 .dark-container {
-    background-color: #013d01;
-    color: white;
+    color: #592B1B;
     padding: 48px 0px;
 }
 .vertical-masonry-gallery {
@@ -139,6 +144,5 @@ body {
 
 .vertical-masonry-gallery img {
     width: 100%;
-    /* margin property not necessary to create this gallery */
     margin-bottom: 1rem;
 }
