@@ -132,9 +132,11 @@ body {
 
 }
 .light-container {
+    background-color: white;
     padding: 48px 0px;
 }
 .dark-container {
+    background-color: #A3A660;
     color: #592B1B;
     padding: 48px 0px;
 }
