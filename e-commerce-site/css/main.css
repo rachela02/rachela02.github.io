@@ -47,7 +47,7 @@ body {
     padding: 12px 36px;
 }
 
-#hero-2 {
+#hero-1 {
     background-image: url(../images/back01.jpg);
     height: 100vh;
     background-size: cover;
@@ -57,20 +57,20 @@ body {
     justify-content: center;
     align-items: center;
 }
-#hero-2 h2 {
+#hero-1 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
     margin-right: 5vw;
     color: #F27244;
     text-shadow: -1px 1px 2px #091140;
 }
-#hero-2 h4 {
+#hero-1 h4 {
     font-size: 3vw;
     margin: 0px 5vw 0px 0px;
     color: #592B1B;
     text-shadow: -1px 1px 2px #F27244;
 }
-#hero-2 a {
+#hero-1 a {
     font-size: 1.75vw;
     display: inline-block;
     background-color: #592B1B;
@@ -147,4 +147,35 @@ body {
 .vertical-masonry-gallery img {
     width: 100%;
     margin-bottom: 1rem;
+}
+@media screen and (max-width: 725px) {
+}
+
+@media screen and (max-width: 480px) {
+    .hero-1 h2 {
+        font-size: 1.625rem;
+    }
+    .hero-1 h4 {
+        font-size: 1rem;
+    }
+    .hero-h1 a {
+        display: block;
+        font-size: 1.125rem;
+    }
+    .light-container .single-column {
+        flex-direction: column;
+        height: auto;
+    }
+    .single-column .vertical-masonry-gallery{
+        height: 200px;
+        width: 100%;
+        flex: auto;
+    }
+    .single-column .content {
+        flex: auto;
+    }
+    #footer #footer-column-navbar {
+        flex-direction: column;
+        align-items: center;
+    }
 }
