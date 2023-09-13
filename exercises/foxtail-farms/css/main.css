@@ -75,7 +75,7 @@ body {
     margin: 5vh 5vw 10vh 0px;
 }
 .column img {
-    border-radius: 4px;
+    border-radius: 14px;
 }
 .column {
     float: right;
@@ -135,4 +135,3 @@ body {
       display: block;
       margin-bottom: 20px;
     }
-  }
