@@ -147,7 +147,7 @@ body {
     margin: 24px;
     width: 600px;
     height: 700px;
-    border: 2px solid #ffe4da;
+    border: 2px solid #e1a177;
     border-radius: 5px;
     padding: 10px;
     box-shadow: -4px 4px 12px #e1a177;
@@ -195,7 +195,7 @@ body {
     margin: 24px;
     width: 190px;
     height: 270px;
-    border: 2px solid #ffe4da;
+    border: 2px solid #e1a177;
     border-radius: 10px;
     padding: 10px;
     box-shadow: -4px 4px 12px #e1a177;
@@ -266,4 +266,9 @@ body {
     display: block;
     text-align: center;
     font-family: lobster, cursive;
+}
+.title h2 {
+    display: block;
+    align-items: center;
+    margin: 0 0 0 35.3px;
 }
