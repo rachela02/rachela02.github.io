@@ -129,3 +129,123 @@ body {
 #footer-columns-navbar a {
     padding: 8px 0px;
 }
+.center-column {
+    width: 50%; 
+    min-width: 500px;
+    margin: 0px auto; 
+}
+#main {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin: 24px;
+    width: 600px;
+    height: 700px;
+    border: 2px solid #ffe4da;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #e1a177;
+}
+
+.card img {
+    width: 99%;
+    height: 400px;
+    object-fit: cover;
+}
+.card h2 {
+    font-family: lobster, cursive;
+    font-size: 36px;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+.card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.anchor-button {
+    display: block;
+    background-color: #e1a177;
+    font-family: lobster, cursive;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.anchor-button:hover {
+    background-color: transparent;
+    color: #e1a177;
+}
+.card2 {
+    margin: 24px;
+    width: 190px;
+    height: 270px;
+    border: 2px solid #ffe4da;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: -4px 4px 12px #e1a177;
+}
+
+.card2 img {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+.card2 h2 {
+    font-family: lobster, cursive;
+    font-size: 20px;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+}
+.card2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    display: block;
+    text-align: center;
+}
+.anchor-button-2 {
+    display: block;
+    background-color: #000;
+    font-family: lobster, cursive;
+    color: #e1a177;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    transition:
+        background-color .5s,
+        color .5s;
+}
+.anchor-button-2:hover {
+    background-color: transparent;
+    color: #e1a177;
+}
+#image img {
+    width: 300px;
+    height: 50%;
+}
+#image h2 {
+    display: block;
+    text-align: center;
+    font-family: lobster, cursive;
+}
