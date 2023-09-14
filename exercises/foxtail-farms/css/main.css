@@ -204,6 +204,7 @@ body {
 .card2 img {
     display: flex;
     justify-content: center;
+    margin: 0 0 0 38px;
     width: 50%;
     height: 100px;
     object-fit: cover;
@@ -217,7 +218,7 @@ body {
 }
 .card2 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
     display: block;
     text-align: center;
 }
@@ -231,7 +232,7 @@ body {
     font-size: 15px;
     text-align: center;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 70px;
     transition:
         background-color .5s,
         color .5s;
@@ -241,10 +242,27 @@ body {
     color: #e1a177;
 }
 #image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 227px;
     width: 300px;
     height: 50%;
 }
 #image h2 {
+    display: block;
+    text-align: center;
+    font-family: lobster, cursive;
+}
+#image2 img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0 227px;
+    width: 300px;
+    height: 50%;
+}
+#image2 h2 {
     display: block;
     text-align: center;
     font-family: lobster, cursive;
