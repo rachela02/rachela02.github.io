@@ -283,19 +283,21 @@ body {
         text-decoration: none;
         font-size: 12px;
         line-height: 10px;
+        display: inline-block;
+        text-align: left;
     }
     #footer-navbar {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 18px;
-        margin-bottom: 12px;
+        display: inline-block;
+        text-align: left;
     }
       
     #footer-navbar a {
         text-decoration: none;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 18px;
-        margin-bottom: 12px;
     }
 }
 
