@@ -276,7 +276,6 @@ body {
         flex-direction: column;
     }
    #footer {
-        flex-wrap: wrap;
         display: inline-block;
     }
     #footer a {
