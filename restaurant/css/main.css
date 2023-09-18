@@ -218,6 +218,7 @@ body {
 }
 #hero-3 p {
     background-color: black;
+    display: inline-block;
 }
 #hero-3 a {
     font-size: 1.5vw;
@@ -255,94 +256,64 @@ body {
     color: #EACBD5;
     text-shadow: 1px 2px #000;
 }
-@media screen and (max-width: 1000px) and (min-width: 801px) {
-    
-    #navbar {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-areas:
-            "header  header  header"
-            "navbar  navbar  navbar"
-            "banner  banner  banner"
-            "card-1  card-2  card-3"
-            "aside   blog    blog"
-            "footer  footer  footer"
-            "banner  banner  banner";
+@media screen and (max-width: 1000px) {
+    #layout {
+        padding: 12px;
     }
-
-    #navbar h1 {
-        font-size: 50px;
-    }
-
     #navbar {
+        flex-direction: column;
+        padding: 24px;
+    }
+    #logo {
+        width: 150px;
+    }
+    #hero-content h2 {
+        font-size: 36px;
+    }
+    #hero-content h4 {
+        font-size: 24px;
+    }
+    #hero-content a {
+        padding: 16px 28px;
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    .card {
+        flex-direction: column;
+        
+    }
+   #footer {
         flex-wrap: wrap;
+        display: inline-block;
     }
-    #navbar a {
-        flex: 160px;
-        border-bottom: 2px solid grey;
+    #footer a {
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    #footer-navbar {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+      
+    #footer-navbar a {
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 18px;
+        margin-bottom: 12px;
+    }
+    
+    #footer a:hover {
+        text-decoration: underline;
     }
 }
 
-@media screen and (max-width: 800px) {
-   
-    #navbar {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "header"
-            "navbar"
-            "card"
-            "blog"
-            "aside"
-            "footer"
-            "bottom";
-    }
-
-    #navbar {
+@media screen and (max-width: 720px) {
+    #footer {
         flex-direction: column;
         align-items: center;
+        gap: 0px;
     }
-    #navbar #logo img {
-        display: flex;
-        justify-content: left;
-    }
-    #navbar .cta-button {
-        display: flex;
-        justify-content: center;
-        margin: 4px 200px 4px 4px;
-    }
-    #navbar h1 {
-        font-size: 40px;
-    }
-
-    #navbar  {
-        flex-wrap: wrap;
-    }
-    #navbar a {
-        flex: 140px;
-        padding: 10px;
-    }
-    #hero-1 .hero-content {
-        flex-direction: column;
-        align-items: center;
-    }
-    #hero-1 .hero-content h2 {
-        font-size: 30px;
-    }
-    #hero-1 .hero-content h4 {
-        font-size: 20px;
-    }
-    #hero-1 .hero-content a {
-        font-size: 12px;
-    }
-   #card-section #single-column card-container .card {
-    flex-direction: column;
-    align-items: center;
-   }
-
-    #card-section, #card {
-        background-color: transparent;
-        margin: 0px;
-        padding: 0px;
-    }
-   
+}
