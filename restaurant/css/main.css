@@ -257,30 +257,23 @@ body {
     text-shadow: 1px 2px #000;
 }
 @media screen and (max-width: 1000px) {
-    #layout {
-        padding: 12px;
-    }
     #navbar {
         flex-direction: column;
         padding: 24px;
     }
-    #logo {
-        width: 150px;
-    }
     #hero-content h2 {
-        font-size: 36px;
+        font-size: 26px;
     }
     #hero-content h4 {
-        font-size: 24px;
+        font-size: 20px;
     }
     #hero-content a {
         padding: 16px 28px;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 24px;
     }
     .card {
         flex-direction: column;
-        
     }
    #footer {
         flex-wrap: wrap;
@@ -303,10 +296,6 @@ body {
         font-size: 18px;
         line-height: 18px;
         margin-bottom: 12px;
-    }
-    
-    #footer a:hover {
-        text-decoration: underline;
     }
 }
 
