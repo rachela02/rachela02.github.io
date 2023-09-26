@@ -6,10 +6,13 @@
 }
 body {
     margin: 0px;
-    font-family: 'Lobster', cursive;
+    font-family: athelas, serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #F2C1AE;
 }
 #navbar {
-    background: linear-gradient(to left,#D9A3B6, #A6779E);
+    background: linear-gradient(to left,#F26B76, #F2C1AE);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -17,8 +20,12 @@ body {
 #navbar a {
     text-decoration: none;
     color: #091140;
-    padding: 24px;
+    padding: 14px;
     font-size: 20px;
+}
+#navbar a:hover {
+    color: #F26B76;
+    text-shadow: 1px 1px #F2C1AE;
 }
 #navbar #logo {
     margin-right: auto;
