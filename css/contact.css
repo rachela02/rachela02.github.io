@@ -58,7 +58,11 @@ body {
     text-align: center;
     margin: 86px;
 }
-
+.card a {
+    text-decoration: none;
+    color: #F2C1AE;
+    font-size: 20px;
+}
 .card h3 {
     font-size: 26px;
     text-shadow: -1px 1px 2px #091140;
