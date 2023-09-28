@@ -30,6 +30,45 @@ body {
 #navbar #logo {
     margin-right: auto;
 }
+
+#two-columns {
+    display: flex;
+}
+
+#column-1 img {
+   width: 400px;
+   height: 100%;
+}
+.single-column {
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+#card-section {
+    background-color: #F26B76;
+    color: #F2C1AE;
+    padding: 8px;
+    width: 100%;
+}
+
+.card {
+    flex: 1;
+    border: 3px solid #F27ECA;
+    padding: 100px;
+    text-align: center;
+    margin: 86px;
+}
+
+.card h3 {
+    font-size: 26px;
+    text-shadow: -1px 1px 2px #091140;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 20px;
+    margin: 24px 0px 0px;
+}
 @media screen and (max-width: 1024px) and (min-width: 481px) {
     #navbar {
         flex: wrap;

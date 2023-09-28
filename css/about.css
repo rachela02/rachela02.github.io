@@ -9,7 +9,7 @@ body {
     font-family: athelas, serif;
     font-style: normal;
     font-weight: 400;
-    background-color: #F2C1AE;
+    background-color: #F26B76;
 }
 #navbar {
     background: linear-gradient(to left,#F26B76, #F2C1AE);
@@ -37,7 +37,19 @@ body {
     margin: 90px;
     padding: 10px;
 }
-
+.about img {
+    border: 3px solid #F2C1AE;
+    border-radius: 170px;
+    box-shadow: 2px 2px 2px #000;
+}
+.about h2 {
+    font-family: "fabiola-script", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    color: #F2C1AE;
+    text-shadow: 1px 2px 1px #000;
+}
 @media screen and (max-width: 1024px) and (min-width: 481px) {
     #navbar {
         flex: wrap;

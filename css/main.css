@@ -44,43 +44,90 @@ body {
 }
 #hero h1 {
     margin-top: .5rem;
-    font-size: 10vw;
+    font-size: 8vw;
     color: #F2C1AE;
     text-shadow: -1px 1px 2px #091140;
+    padding: 15px;
 }
 #hero h3 {
     font-size: 3vw;
     color: #F2F2F2;
     text-shadow: -1px 1px 2px #F2C1AE;
 }
-#hero p {
-    font-size: 3vw;
-    letter-spacing: .25em;
+#hero a {
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #F2C1AE;
+    padding: 7px;
     font-weight: 200;
     margin-top: 2rem;
     color:#F2F2F2;
-    text-shadow: -2px 2px 3px #F2C1AE;
+    text-decoration: none;
+    text-shadow: -1px 1px 1px #F2C1AE;
+}
+#hero a:hover {
+    background-color: #F27ECA;
+    transition: 0.7s;
 }
 
-#main {
-    width: 90vw;
-    max-width: 1000px;
-    margin: 3rem auto;
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
-#layout {
-    max-width: 800px;
-    margin: 48px auto;
-    text-align: center;
+.card1 {
+    width: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
 }
-.basic-grid-gallery {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding: 24px;
-    border: 5px solid #F26B76;
-}
-
-.basic-grid-gallery img {
+.card1 img {
     width: 100%;
+    height: auto;
+}
+.card2 {
+    width: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card2 img {
+    width: 600px;
+    height: auto;
+}
+.card3 {
+    width: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card3 img {
+    width: 425px;
+    height: auto;
+}
+.card4 {
+    width: 425px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px;
+}
+.card4 img {
+    width: 420px;
+    height: 300px;
+}
+.card-content .btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #F26B76;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    color: #F2C1AE;
+}
+.card-content .btn:hover {
+    background-color: #F27ECA;
+    transition: 0.7s;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 481px) {
