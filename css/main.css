@@ -77,8 +77,8 @@ body {
     margin-top: 80px;
 }
 .card1 {
-    width: 425px;
-    border-radius: 10px;
+    width: 225px;
+    border-radius: 20px;
     overflow: hidden;
     margin: 20px;
 }
@@ -87,41 +87,33 @@ body {
     height: auto;
 }
 .card2 {
-    width: 425px;
+    width: 225px;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
 }
 .card2 img {
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 .card3 {
-    width: 425px;
+    width: 225px;
     border-radius: 10px;
     overflow: hidden;
     margin: 20px;
 }
 .card3 img {
-    width: 425px;
+    width: 225px;
     height: auto;
 }
-.card4 {
-    width: 425px;
-    border-radius: 10px;
-    overflow: hidden;
-    margin: 20px;
-}
-.card4 img {
-    width: 420px;
-    height: 300px;
-}
+
 .card-content .btn {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 8px 16px;
     background-color: #F26B76;
     text-decoration: none;
-    border-radius: 8px;
+    border-radius: 15px;
     margin-top: 16px;
     color: #F2C1AE;
 }
